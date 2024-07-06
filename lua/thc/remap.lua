@@ -10,9 +10,6 @@ vim.api.nvim_set_keymap("x", "<leader>Y", [["+Y]], { silent = true })
 
 vim.api.nvim_set_keymap("n", "<leader>pv", ":lua vim.cmd('Ex')<CR>", { silent = true })
 
-vim.api.nvim_set_keymap("n", "<leader>b", ":buffers<CR>", { silent = true })
-vim.api.nvim_set_keymap("n", "<leader>o", ":buffer ", { silent = true })
-
 -- floatterm
 vim.api.nvim_set_keymap("n", "<leader>n", ":FloatermNew<CR>", { silent = true })
 vim.api.nvim_set_keymap("n", "<leader>t", ":FloatermToggle<CR>", { silent = true })
