@@ -6,6 +6,7 @@ return require("packer").startup(function(use)
 
     use "aktersnurra/no-clown-fiesta.nvim"
     use "Tsuzat/NeoSolarized.nvim"
+    use {'thimc/gruber-darker.nvim'}
 
     use({
         "iamcco/markdown-preview.nvim",
@@ -17,20 +18,9 @@ return require("packer").startup(function(use)
         requires = { {"nvim-lua/plenary.nvim"} }
     })
 
-    use({
-        "folke/trouble.nvim",
-        config = function()
-            require("trouble").setup {
-                icons = false,
-                -- your configuration comes here
-                -- or leave it empty to use the default settings
-                -- refer to the configuration section below
-            }
-        end
-    })
-
     use("mbbill/undotree")
     use("tpope/vim-fugitive")
+    use("folke/trouble.nvim")
 
     use({
         'nvim-treesitter/nvim-treesitter',

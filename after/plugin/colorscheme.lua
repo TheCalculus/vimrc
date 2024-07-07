@@ -11,4 +11,10 @@ require("no-clown-fiesta").setup({
     },
 })
 
-vim.cmd [[colorscheme NeoSolarized]]
+require("gruber-darker").setup({
+    transparent = true,
+    underline = false,
+    bold = true,
+})
+
+vim.cmd [[colorscheme gruber-darker]]

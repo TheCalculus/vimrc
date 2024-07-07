@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["NeoSolarized.nvim"] = {
+    loaded = true,
+    path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/NeoSolarized.nvim",
+    url = "https://github.com/Tsuzat/NeoSolarized.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -144,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -169,6 +179,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-256noir"] = {
+    loaded = true,
+    path = "/home/jaisal/.local/share/nvim/site/pack/packer/start/vim-256noir",
+    url = "https://github.com/andreasvc/vim-256noir"
   },
   ["vim-floaterm"] = {
     loaded = true,
