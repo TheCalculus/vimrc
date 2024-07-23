@@ -17,4 +17,18 @@ require("gruber-darker").setup({
     bold = true,
 })
 
-vim.cmd [[colorscheme gruber-darker]]
+require("NeoSolarized").setup({
+    transparent = true,
+    enable_italics = false,
+    styles = {
+        comments = { italic = false },
+        keywords = { italic = false },
+        functions = { bold = true },
+        variables = {},
+        string = { italic = false },
+        underline = true, -- true/false; for global underline
+        undercurl = true, -- true/false; for global undercurl
+    },
+})
+
+vim.cmd [[colorscheme NeoSolarized]]
