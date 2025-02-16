@@ -1,0 +1,8 @@
+[credential]
+	helper = manager
+	credentialStore = gpg
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	email = seven.four.six.five@proton.me
+	name = TheCalculus
